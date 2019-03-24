@@ -6,9 +6,6 @@ module.exports = function getZerosCount(number, base) {
         arr.push(i);
         base = base / i;
       }
-        if(base/i == 1){
-          arr.push(base);
-        }
     }
   } 
     let arrX=[], arrN=[];     //массив множителей и массив степеней множителей соответственно
